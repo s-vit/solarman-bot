@@ -7,7 +7,7 @@ from typing import Any, Dict
 _CHAT_ID: str = os.getenv("TELEGRAM_CHAT_ID", "@v7_solar")
 
 # Telegram bot token (recommended to use environment variables in production).
-_TOKEN: str = os.getenv("TELEGRAM_BOT_TOKEN", "6818149519:AAFFtWmg_Plf5xYzyVaeDDIEtCc5cXnosU8")
+_TOKEN: str = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 def send_telegram_message(text: str) -> Dict[str, Any]:
     """
