@@ -1,0 +1,22 @@
+2025-07-15 11:57:03,951 - INFO - Starting Solarman Bot
+2025-07-15 11:57:03,953 - INFO - Requesting data for 14.07.2025
+2025-07-15 11:57:04,382 - INFO - Data successfully retrieved and processed
+2025-07-15 11:57:04,386 - INFO - Report successfully sent to Telegram
+2025-07-15 12:32:34,203 - INFO - Starting Solarman Bot
+2025-07-15 12:32:34,204 - INFO - Requesting data for 14.07.2025
+2025-07-15 12:32:34,429 - INFO - Data successfully retrieved and processed
+2025-07-15 12:32:34,434 - INFO - Report successfully sent to Telegram
+2025-07-15 12:33:49,390 - INFO - Starting Solarman Bot
+2025-07-15 12:33:49,391 - INFO - Requesting data for 14.07.2025
+2025-07-15 12:33:49,627 - INFO - Data successfully retrieved and processed
+2025-07-15 12:33:49,631 - INFO - Report successfully sent to Telegram: 📊 Щоденний звіт за 14.07.2025
+
+🔆 Вироблено: 99.50kWh
+💡 Спожито: 151.60kWh
+⚡️ Куплено: 59.40kWh
+🔋⬆️ Заряд АКБ: 37.00kWh
+🔋⬇️ Розряд АКБ: 34.80kWh
+🏭 Використання мережі: 39%
+💵 Економія: 429.84грн
+
+#звіт_день

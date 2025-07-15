@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  solarman-bot:
+    build: .
+    container_name: solarman-bot
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - SOLARMAN_TOKEN=${SOLARMAN_TOKEN}
+    volumes:
+      - ./logs:/app/logs
+    command: python solarman_export.py 
